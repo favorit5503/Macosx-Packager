@@ -146,7 +146,7 @@
         //Adding server value to the mutable string
         [ocsAgentCfgContent appendString:[configuration protocol]];
         [ocsAgentCfgContent appendString:[configuration server]];
-        [ocsAgentCfgContent appendString:@"/ocsinventory"];
+        [ocsAgentCfgContent appendString:@"\n"];
         [ocsAgentCfgContent appendString:@"\n"];
     }
     
