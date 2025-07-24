@@ -174,6 +174,12 @@
         [ocsAgentCfgContent appendString:@"lazy=0\n"];
     }
     
+    if ([configuration ssl]) {
+        [ocsAgentCfgContent appendString:@"ssl=1\n"];
+    } else {
+        [ocsAgentCfgContent appendString:@"ssl=0\n"];
+    }
+    
     if ([configuration authUser]) {
         [ocsAgentCfgContent appendString:@"user="];
         NSData *user = [[configuration authUser] dataUsingEncoding:NSUTF8StringEncoding];
