@@ -153,7 +153,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="rzO-Ho-sVQ">
                             <font key="font" metaFont="system"/>
-                            <string key="title">/ocsinventory
+                            <string key="title">
 </string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
