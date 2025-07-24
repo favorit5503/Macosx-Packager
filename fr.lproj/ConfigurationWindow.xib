@@ -383,6 +383,14 @@ Gw
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button imageHugsTitle="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N51-r2-SW6">
+                        <rect key="frame" x="400" y="419" width="95" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <buttonCell key="cell" type="check" title="SSL Option" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="9ci-0F-7CD">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
             </view>
             <point key="canvasLocation" x="-326.5" y="-183"/>
@@ -635,6 +643,7 @@ Gw
                 <outlet property="userDebugMode" destination="hKz-PU-576" id="qXh-vX-mz9"/>
                 <outlet property="userDownload" destination="5by-n2-vXZ" id="uxX-TF-PX5"/>
                 <outlet property="userLazy" destination="tdr-9t-zzi" id="4zj-xA-9Ft"/>
+                <outlet property="userSsl" destination="N51-r2-SW6" id="4zg-xB-8Ft"/>
                 <outlet property="userLogFile" destination="7NU-Wk-o7v" id="LmH-w6-XUA"/>
                 <outlet property="userNow" destination="3rr-Fh-pBx" id="EeM-Zw-uij"/>
                 <outlet property="userOcsPkgFile" destination="T0A-Vm-xR3" id="RRf-DZ-LCK"/>
